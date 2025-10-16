@@ -10,10 +10,10 @@
   display: block;
   text-align: right;
 }
-.aaa .eisenhower-matrix {
+.eisenhower-matrix {
   width: 100%;
 }
-.aaa .more_inf {
+.more_inf {
   font-family: fantasy, cursive;
 }
 
@@ -91,7 +91,7 @@
   display: block;
   margin: 0 0 20px;
 }
-.input#new-task {
+#new-task {
   width: 318px;
 }
 
@@ -109,29 +109,29 @@
   vertical-align: middle;
 }
 
-.basic-task > .input[type="checkbox"] {
+.input[type="checkbox"] {
   margin: 0 10px;
 }
-.basic-task > .label {
+.basic-label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-.basic-task >    .input[type="text"] {
+.list-input {
   width: 226px;
 }
-.button .delete .image {
+.delete-image {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.button.delete .image:hover {
+.delete-image:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-.list#completed-tasks .label {
+#completed-tasks .label {
   text-decoration: line-through;
   color: #888;
 }
@@ -141,11 +141,11 @@
   display: none;
 }
 
-.list .basic-task.editmode .input[type="text"] {
+.basic-task.editmode .input[type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-.list .basic-task.editmode .label {
+.basic-task.editmode .label {
   display: none;
 }
