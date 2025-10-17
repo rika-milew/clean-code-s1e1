@@ -10,10 +10,10 @@
   display: block;
   text-align: right;
 }
-.header-image {
+.header-img {
   width: 100%;
 }
-.header-more-link {
+.header-link {
   font-family: fantasy, cursive;
 }
 
@@ -34,7 +34,7 @@
   display: inline-block;
   flex-grow: 1;
 }
-.row-wrapper {
+.row {
   display: flex;
 }
 .list {
@@ -48,14 +48,14 @@
 .add-input,
 .checkbox,
 .task-input,
-.edit-button,
-.delete-button,
-.add-button{
+.edit-btn,
+.delete-btn,
+.add-btn{
   outline: none;
 }
-.add-button,
-.delete-button,
-.edit-button {
+.add-btn,
+.delete-btn,
+.edit-btn {
   background: none;
   border: 0px;
   color: #888;
@@ -64,9 +64,9 @@
   font-family: lato, sans-serif;
   cursor: pointer;
 }
-.delete-button:hover,
-.add-button:hover,
-.edit-button:hover {
+.delete-btn:hover,
+.add-btn:hover,
+.edit-btn:hover {
   color: #3a3a3a;
 }
 /* Heading */
