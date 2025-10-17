@@ -22,20 +22,20 @@
     </div>
     <div class="main">
       <p id="add-section">
-        <label class="add-task-label" for="new-task-input">Add Item</label>
+        <label class="add-label" for="add-input">Add Item</label>
         <div class="row-wrapper">
           <input
-            id="newTaskInput"
-            class="new-task-input"
+            id="addInput"
+            class="add-input"
             type="text">
           <button class="add-button">Add</button>
         </div>
       </p>
-      <h3 class="list-heading">Todo</h3>
-      <ul id="incompleteTasks" class="list">
+      <h3 class="list-title">Todo</h3>
+      <ul id="toDoList" class="list">
         <li class="task-item">
-          <input type="checkbox" class="input-checkbox">
-          <label class="task-label">Pay Bills</label>
+          <input type="checkbox" class="checkbox">
+          <label class="task-name">Pay Bills</label>
           <input type="text" class="task-input">
           <button class="edit-button">Edit</button>
           <button class="delete-button">
@@ -43,8 +43,8 @@
           </button>
         </li>
         <li class="task-item edit-mode">
-          <input type="checkbox" class="input-checkbox">
-          <label class="task-label">Go Shopping</label>
+          <input type="checkbox" class="checkbox">
+          <label class="task-name">Go Shopping</label>
           <input
             type="text"
             value="Go Shopping"
@@ -55,11 +55,11 @@
           </button>
         </li>
       </ul>
-      <h3 class="list-heading">Completed</h3>
-      <ul id="completedTasks" class="list completed-list">
+      <h3 class="list-title">Completed</h3>
+      <ul id="doneList" class="list list-done">
         <li class="task-item">
-          <input type="checkbox" class="input-checkbox" checked>
-          <label class="task-label">See the Doctor</label>
+          <input type="checkbox" class="checkbox" checked>
+          <label class="task-name">See the Doctor</label>
           <input type="text" class="task-input">
           <button class="edit-button">Edit</button>
           <button class="delete-button">
