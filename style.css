@@ -29,7 +29,7 @@
 .main {
   display: block;
   width: 500px;
-  margin: 0 auto 0;
+  margin: 0 auto;
 }
 
 .add__input,
@@ -47,7 +47,7 @@
 .done__list,
 .todo__list {
   margin: 0;
-  padding: 0px;
+  padding: 0;
 }
 
 .task,
@@ -73,7 +73,7 @@
   font-size: 15px;
   color: #888888;
   background: none;
-  border: 0px;
+  border: none;
   cursor: pointer;
 }
 
@@ -167,7 +167,7 @@
 /* Completed */
 .done__list .task__name {
   text-decoration: line-through;
-  color: #888;
+  color: #888888;
 }
 
 /* Edit Task */
@@ -193,6 +193,6 @@
   border: 0;
   white-space: nowrap;
   clip-path: inset(100%);
-  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
   overflow: hidden;
 }
