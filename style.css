@@ -17,7 +17,7 @@
 }
 
 .header__link {
-  font-family: "Fantasy", cursive;
+  font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
