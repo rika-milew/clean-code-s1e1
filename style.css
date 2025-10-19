@@ -8,7 +8,7 @@
 .header {
   display: block;
   width: 500px;
-  margin: 0 auto;
+  margin: 0 auto 15px;
   text-align: right;
 }
 
@@ -30,6 +30,10 @@
   display: block;
   width: 500px;
   margin: 0 auto;
+}
+
+.add {
+  margin-bottom: 15px;
 }
 
 .add__input,
