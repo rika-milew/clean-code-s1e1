@@ -182,7 +182,8 @@
   display: none;
 }
 
-.visually-hidden {
+.title_hidden,
+.add__title_hidden {
   position: absolute;
   width: 1px;
   height: 1px;
